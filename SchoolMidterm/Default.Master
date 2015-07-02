@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="SchoolMidterm.Default" %>
+
+<!DOCTYPE html>
+<!-- Developer: Jacqueline Richard-->
+<!-- Project: HowardsSchool.ca-->
+<!-- Description: A quick easy site to keep track of the courses given at Howard's School for the gifted.-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Howard's School for the gifted Application" />
+    <meta name="author" content="Jacq Richard" />
+    <title>Howard's School for the gifted.</title>
+
+    <!-- The Css files for the site -->
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/carousel.css" rel="stylesheet" />
+    <link href="Content/Style.css" rel="stylesheet" />
+    <!-- Woo -->
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+     <!-- java script files-->
+    <script src="scripts/jquery-1.9.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- custom js file -->
+</body>
+</html>
